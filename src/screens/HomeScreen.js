@@ -1,37 +1,29 @@
 import React from 'react';
-import { View, Text, Button } from 'react-native';
+import { View, Button } from 'react-native';
 
 
 export default function HomeScreen({ navigation }) {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
           <Button
-            title="Plate"
-            onPress={() => navigation.navigate('Plate')}
+            title="The Plate"
+            onPress={() => navigation.navigate('The Plate')}
           />
           <Button
             title="Pregnant Women"
             onPress={() => navigation.navigate('Pregnant Women')}
           />
           <Button
-            title="New Born"
-            onPress={() => navigation.navigate('New Born')}
+            title="New Borns"
+            onPress={() => navigation.navigate('New Borns')}
           />
           <Button
-            title="Toddler"
-            onPress={() => navigation.navigate('Toddler')}
+            title="Toddlers"
+            onPress={() => navigation.navigate('Toddlers')}
           />
           <Button
-            title="Adolescent"
-            onPress={() => navigation.navigate('Adolescent')}
-          />
-          <Button
-            title="Adult"
-            onPress={() => navigation.navigate('Adult')}
-          />
-          <Button
-            title="Unhealthy"
-            onPress={() => navigation.navigate('Unhealthy')}
+            title="Adults and Adolescents"
+            onPress={() => navigation.navigate('Adults')}
           />
         </View>
       );
