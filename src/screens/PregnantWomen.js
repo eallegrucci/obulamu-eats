@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         flex:1,
         alignItems:'center',
         justifyContent:'center',
-        backgroundColor: "#f2dac8" //peach
+        backgroundColor: "#b2dfdb"
     }
 });
 
@@ -20,37 +20,55 @@ export default function PregnantWomenScreen() {
                 <Image 
                     style={{ width: Dimensions.get('window').width, height: Dimensions.get('window').height-75 }}
                     resizeMode="contain"
-                    source={require('../assets/M1_S1.png')} />
+                    source={require('../assets/m1_s1.png')} />
             </View>
             <View style={styles.container}>
                 <Image 
                     style={{ width: Dimensions.get('window').width, height: Dimensions.get('window').height-75 }}
                     resizeMode="contain"
-                    source={require('../assets/M1_S2.png')} />
+                    source={require('../assets/m1_s2.png')} />
             </View>
             <View style={styles.container}>
                 <Image 
                     style={{ width: Dimensions.get('window').width, height: Dimensions.get('window').height-75 }}
                     resizeMode="contain"
-                    source={require('../assets/M1_S3.png')} />
+                    source={require('../assets/m1_s3.png')} />
             </View>
             <View style={styles.container}>
                 <Image 
                     style={{ width: Dimensions.get('window').width, height: Dimensions.get('window').height-75 }}
                     resizeMode="contain"
-                    source={require('../assets/M1_S4.png')} />
+                    source={require('../assets/m1_s4.png')} />
             </View>
             <View style={styles.container}>
                 <Image 
                     style={{ width: Dimensions.get('window').width, height: Dimensions.get('window').height-75 }}
                     resizeMode="contain"
-                    source={require('../assets/M1_S5.png')} />
+                    source={require('../assets/plate_1.png')} />
             </View>
             <View style={styles.container}>
                 <Image 
                     style={{ width: Dimensions.get('window').width, height: Dimensions.get('window').height-75 }}
                     resizeMode="contain"
-                    source={require('../assets/M1_S6.png')} />
+                    source={require('../assets/plate_2.png')} />
+            </View>
+            <View style={styles.container}>
+                <Image 
+                    style={{ width: Dimensions.get('window').width, height: Dimensions.get('window').height-75 }}
+                    resizeMode="contain"
+                    source={require('../assets/plate_3.png')} />
+            </View>
+            <View style={styles.container}>
+                <Image 
+                    style={{ width: Dimensions.get('window').width, height: Dimensions.get('window').height-75 }}
+                    resizeMode="contain"
+                    source={require('../assets/m1_s5.png')} />
+            </View>
+            <View style={styles.container}>
+                <Image 
+                    style={{ width: Dimensions.get('window').width, height: Dimensions.get('window').height-75 }}
+                    resizeMode="contain"
+                    source={require('../assets/m1_s6.png')} />
             </View>
         </ScrollView>
     )
