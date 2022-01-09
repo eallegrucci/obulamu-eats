@@ -1,8 +1,8 @@
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import Home from './src/screens/HomeNav';
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import Home from './src/screens/HomeNav'
 
-function App() {
+const App = () => {
   return (
     <NavigationContainer>
       <Home/>
@@ -10,4 +10,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
